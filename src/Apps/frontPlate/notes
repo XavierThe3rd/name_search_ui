@@ -1,0 +1,10 @@
+  openNames(){
+        let list = document.getElementById("myList");
+        if(list.classList.contains("out-scale")){
+            list.classList.remove("out-scale");
+            list.classList.add("in-scale");
+        }else{
+            list.classList.add("out-scale");
+            list.classList.remove("in-scale");
+        }
+    }

@@ -1,0 +1,47 @@
+SVG{
+    top: -185px;
+    width: 1300px;
+}
+
+.holder{
+    padding: 50px;
+    z-index: 2;
+    
+    h1{
+        @include fontSettings($qBlue, 50px, 600, 1, italic, center);
+        @include positioning(50px auto 0, 50px);
+    }
+
+    input{
+        @include dimensions($pureWhite, 100%, 32px, 16px);
+        @include fontSettings($qBlue, 18px, 400, 1, normal, center);      
+    }
+
+    button{
+        @include dimensions($qBlue, 32px, 32px, 16px);
+        @include fontSettings($pureWhite, 18px, 400, 1, normal, center);
+        transition: all 0.1s linear;
+        margin: 0 0 0 10px;
+
+        &:hover{
+            background: $lightBlue;
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+datalist{
+    @include dimensions($pureWhite, 100%, 350px, 12px);
+    margin: 20px;
+}
+
+.out-scale{
+    transform: scale(0, 1);
+    transition: all 0.35s ease-in-out;
+}
+
+.in-scale{
+    transform: scale(1, 1);
+    transition: all 0.35s ease-in-out;
+}

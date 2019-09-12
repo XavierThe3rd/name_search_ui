@@ -1,0 +1,50 @@
+.namelist{
+    @include dimensions($pureWhite, 80%, 350px, 12px);
+    margin: 20px;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track{
+    width: 12px;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $qBlue;
+}
+
+::-webkit-scrollbar-track {
+    background: $lightGrey;
+}
+
+ul{
+    overflow-y: scroll;
+    width:95%;
+    
+    li{
+        margin: 0 auto;
+        width:95%;
+        text-align: center;
+
+        a{
+            @include fontSettings($pureBlack, 18px, 300, 2.25, normal, center);
+        }
+
+        &:hover{
+            background: $lightBlue;
+
+            a{
+                color: $pureWhite;
+            }
+        }
+    }
+}
+
+.out-scale{
+    transform: scale(0, 1);
+    transition: all 0.35s ease-in-out;
+}
+
+.in-scale{
+    transform: scale(1, 1);
+    transition: all 0.35s ease-in-out;
+}

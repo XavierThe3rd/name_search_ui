@@ -1,0 +1,104 @@
+// ------gird system------//
+
+.grid3 {
+    width: 30%;
+}
+
+.grid7 {
+    width: 70%;
+}
+
+.grid8 {
+    width: 80%;
+}
+
+.grid9 {
+    width: 90%;
+}
+
+.grid10 {
+    width: 100%;
+}
+
+
+
+//------gird system------//
+
+//------positions------//
+
+.abs {
+    position: absolute;
+}
+
+.fix {
+    position: fixed;
+}
+
+.rel {
+    position: relative;
+}
+
+//------positions------//
+
+//------flex------//
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.btw { 
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+//------flex------//
+
+
+//------direction------//
+
+.top {
+    top: 0px;
+}
+
+.left {
+    left: 0px;
+}
+
+.right {
+    right: 0px;
+}
+
+//------direction------//
+
+//------other------//
+
+.auto {
+    margin: 0px auto;
+}
+
+.opacity-none {
+    opacity: 0;
+}
+
+.point {
+    cursor: pointer;
+}
+
+
+//------other------//
+
+.none{
+    display: none;
+}
+

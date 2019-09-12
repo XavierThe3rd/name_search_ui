@@ -1,0 +1,27 @@
+@mixin border($color, $size){
+    border-color: $color;
+    box-sizing: border-box;
+    border-width: $size;
+    border-style: solid;
+}
+
+@mixin dimensions($color, $width, $height, $radius){
+    background: $color;
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+}
+
+@mixin fontSettings($color, $size, $weight, $line, $slant, $align){
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line;
+    font-style: $slant;
+    text-align: $align;
+}
+
+@mixin positioning($marg, $pad){
+    margin: $marg;
+    padding: $pad;
+}

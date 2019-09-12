@@ -1,0 +1,16 @@
+
+@import "helpers/settings";
+@import "helpers/tools";
+@import "helpers/generics";
+@import "helpers/elements";
+@import "../Apps/frontPlate/frontplate";
+@import "../Apps/nameList/nameList.scss";
+
+
+
+html, body {
+    height: 100%;
+    background: black;
+    margin:0;
+    overflow: hidden;
+}
